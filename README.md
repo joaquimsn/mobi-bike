@@ -1,5 +1,5 @@
 # Plataforma Mobi Bike
-O cilista cadastro na plataforma terá um cadastro de pessoa fisíca verificado, utilizando API de verificação da Assertiva.
+O ciclista cadastrado na plataforma terá um cadastro de pessoa fisíca verificado, utilizando API de verificação da Assertiva.
 
 ![plataforma](docs/plataforma-mobi-bike.png)
 
