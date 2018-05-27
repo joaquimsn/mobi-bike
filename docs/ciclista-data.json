@@ -33,7 +33,7 @@
             "speedAcurracy": 25
         }, {
             "coordinates": "-23.78474,-22.4577",
-            "altitude": 789,
+            "altitude": 678,
             "acurracy": 3,
             "speed": 14,
             "speedAcurracy": 25
@@ -44,4 +44,18 @@
             "speedAcurracy": 25
         }
     ]
+}
+
+
+//Localizacao JSON Oceano 
+{
+    "ciclistaId": 778,
+    "startTime": "2018-05-27T10:00:55+03:00",
+    "endTime": "2018-05-27T10:00:55+03:00",
+    "track": [{
+        "coordinates": "-23.985570,-46.046859",
+        "acurracy": 3,
+        "speed": 14,
+        "speedAcurracy": 25
+    }]
 }

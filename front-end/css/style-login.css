@@ -1,0 +1,77 @@
+*{
+	margin: auto;
+	font-family: SEGOE UI;
+}
+
+@media only screen and (max-width: 350) {
+	body { overflow-x: hidden; }
+}
+body{
+	background: url(../img/BG-APP.png);
+	color:white;
+	font-weight: bold;
+}
+
+input.form-control::placeholder {
+	font-weight: bold;
+    color: #fff;
+}
+.form-control{
+	background: rgba(255, 255, 255,0.1);
+	width: 400px;
+	margin: auto;
+	border: none;
+	border-radius: 0;
+	border-bottom: solid 2px #fff;
+}
+
+.form-control:focus{
+	background: rgba(241, 196, 15,0.0);
+	border: none;
+	border-radius: 0;
+	border-bottom: solid 1px #fff;
+}
+
+.logo{
+	width:300px;
+	height:220px;
+	padding: 20px;
+}
+
+.btn{
+	color: #f1c40f;
+	background-color: #fff;
+	border-radius: 0px;
+	width: 150px;
+}
+
+.cad{
+	cursor: pointer;
+	color: #fff;
+	font-size: 22px;
+}
+.cad:hover{
+	text-decoration: none;
+	color: #273c75;
+	cursor: pointer;
+}
+
+.cad-face{
+	color: #273c75;
+	cursor: pointer;
+}
+
+
+.icon-facebook{
+	margin: auto;
+	width: 40px;
+	height: 40px;
+}
+
+
+
+.cad-face:hover{
+	text-decoration: none;
+	color: #273c75;
+	cursor: pointer;
+}

@@ -2,3 +2,7 @@ Services/*/target
 /front-end/app/node_modules
 node_modules
 /front-end/app
+/front-end/gestao
+/front-end/gestao/node_modules
+/front-end/gestao/docs
+/front-end/gestao/bower_components
