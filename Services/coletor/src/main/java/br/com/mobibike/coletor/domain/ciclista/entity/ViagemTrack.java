@@ -11,9 +11,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.JsonNode;
 
 @Entity
@@ -33,10 +35,18 @@ public class ViagemTrack {
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "viagem", fetch = FetchType.EAGER)
 	private List<Track> tracks = new ArrayList<>();
 
+	@JsonIgnore
 	@Transient
 	private JsonNode device;
 
 	private LocalDateTime dataCadastro;
+
+	@PrePersist
+	private void actionPrePersiste() {
+		tracks.forEach(track -> {
+			track.setViagem(this);
+		});
+	}
 
 	public void addTrack(List<Track> tracks) {
 		tracks.forEach(track -> {
