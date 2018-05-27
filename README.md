@@ -85,5 +85,5 @@ Efetuar o primeira cadastro
 
 ### Plataforma de gestão
 Monitoramento das tentativa de fraudes
-Definição dos escore  de mau ciclista,
-Com base no escore, quantas métricas deverão ser aplicadas para validar o trajeto
+Definição dos score  de mau ciclista,
+Com base no score, quantas métricas deverão ser aplicadas para validar o trajeto
