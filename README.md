@@ -59,13 +59,10 @@ Efetuar o primeira cadastro
 
 ![Cadastro](docs/telas/App-Cadastro.png)
 
-Definição da rota
 ![Rota](docs/telas/App-Origem-Destino.png)
 
-Destino
 ![Origem destino](docs/telas/App-Origem-Destino-Preench-N-Ativo.png)
 
-Destino em rota
 ![Origem destino](docs/telas/App-Origem-Destino-Preench-Ativo.png)
 
 ![Amigos](docs/telas/App-Amigos.png)
