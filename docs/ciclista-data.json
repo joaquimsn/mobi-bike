@@ -1,0 +1,47 @@
+{
+    "ciclistaId": 778,
+    "startTime": "2018-05-27T10:00:55+03:00",
+    "endTime": "2018-05-27T10:00:55+03:00",
+    "track": [{
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        },
+        {
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        },
+        {
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        },
+        {
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        },
+        {
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        }, {
+            "coordinates": "-23.78474,-22.4577",
+            "altitude": 789,
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        }, {
+            "coordinates": "-23.78474,-22.4577",
+            "acurracy": 3,
+            "speed": 14,
+            "speedAcurracy": 25
+        }
+    ]
+}
