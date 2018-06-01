@@ -1,57 +1,11 @@
+A Mobi Bike foi desenvolvida no hakathon Hack’n Bike
+
 # Plataforma Mobi Bike
-O ciclista cadastrado na plataforma terá um cadastro de pessoa fisíca verificado, utilizando API de verificação da Assertiva.
+A plataforma responsável por validar os créditos do programa Bike SP.
 
-![plataforma](docs/plataforma-mobi-bike.png)
-
-
-## Serviços
-
-### Coletor
-Aplicação responsável por receber os dados coletados pelo aplicativo, tempo real ou offline
-   - Recebe a Geolocation 
-   - Recebe dados do acelerometro
-   - Status de uso do smartphone
-
-### Farejador 
-Serviço que ficará processando os dados do Coletor, para verificar inconsistências nas informações “fraudes”, baseado informações coletadas pelo Centralizador, no mesmo intervalo de tempo que o viagem foi realizada.
-
-Metricas de verificação velocidade, localização, histórico, trânsito
-	
-Dentro do período de D+3 validar no sistema da sptrans se o ciclista cadastrado utilizou o transporte público simultaneamente ao percurso do ciclista
-
-### Historico
-Aplicação para consultar as validações de creditos realizadas, baseado no score gerado pelo Farejador
-* Histórico de todos créditos concedidos
-* Motivo pelo qual o crédito não foi validado ex:
-    *  Aplicativo não coletou as coordenadas do percurso
-    *  Uso do bilhete único
-    *  Inconsistencia de velocidade
-    *  Classificação da percurso utilizado, ex. Andou na 23 de maio
-    *  Região com ciclofaixa proem o usuário demorou muito tempo para fazer o percurso.
-
-### Centralizador
-Aplicação responsável por gerar métricas segundárias, ao trajeto feito pelo ciclista, para identificar os possíveis maus cliclistas que tentarem bular o sistema.
-
-Consultar linhas da API Sptrans olhou vivo
-Consulta região que o ciclista passou, com base na latitude e longitude
-Consultar utilização do bilhete único em algum modal do transporte público
-Consultar numero do bilhete se é válido	
-Consultar rotas possíveis já testada por usuários, com origem e destino no BikeMap
-
-### Transparência
-Aplicação de consultas publicas, disponíves para todos os cidadãos 
-
-* Quantidade de creditos valídados  
-* Regiões com mais utilização de bicicletas e  valor total da liberação dos crédito
-* Credito de carbono gerados
-
-### Autenticacão
-Todos os serviços que disponibilizam consultas, as requisições serão autenticados verificando o perfil de acesso,  para proteger as informações sensiveis do usuário.
-
-## Aplicações: 
 ### Aplicativo mobile
 Grava o percurso do ciclista
-Coleta dados dos senhores, GPS, acelerômetro
+Coleta dados dos sensores, GPS, acelerômetro
 Registra o ponto de partida e chegada
 Efetuar o primeira cadastro
 
@@ -84,6 +38,5 @@ Efetuar o primeira cadastro
 ![Verificacao de seguranca noti](docs/telas/App-Validar-BU-notif.png)
 
 ### Plataforma de gestão
-Monitoramento das tentativa de fraudes
-Definição dos score  de mau ciclista,
-Com base no score, quantas métricas deverão ser aplicadas para validar o trajeto
+Monitoramento das tentativa de fraudes,
+Portal da transparência
