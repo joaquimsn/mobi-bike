@@ -1,4 +1,4 @@
-A Mobi Bike foi desenvolvida no hakathon Hack’n Bike
+A Mobi Bike foi desenvolvida no hackathon Hack’n Bike
 
 # Plataforma Mobi Bike
 A plataforma responsável por validar os créditos do programa Bike SP.
